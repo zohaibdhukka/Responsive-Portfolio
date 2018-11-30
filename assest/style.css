@@ -36,12 +36,12 @@ nav{
     padding: 0px 20px 0px 20px;
 }
 
-.section{
+#section{
     padding: 2%;
     background: #fff;
-    width: 960px;
+    
     margin:auto;
-    height: 960px;
+    
 }
 
 
@@ -169,4 +169,69 @@ footer{
 img{
     margin-bottom: 10px;
     
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: lightblue;
+        width: 965px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    body {
+
+        background-color: lightcoral;
+        width: 753px;
+    }
+
+    nav{
+
+        margin-left: 63%;
+    }
+
+    .dd{
+
+        bottom: -200px;
+        left: 0px;
+    }
+
+    .ee{
+
+        left: 210px;
+    }
+
+    .ff{
+
+        left: 420px;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: lightsteelblue;
+        width: 625px;
+    }
+    .cc{
+        bottom: -200px;
+        left: 0px;
+    }
+    
+    .dd{
+        bottom: -200px;
+        left: 210px;
+    }
+    .ee{
+        bottom: -400px;
+        left: 0px;
+    }
+    .ff{
+        bottom: -400px;
+        left: 210px;
+    }
+    nav{
+        margin-left: 58%;
+    }
 }
