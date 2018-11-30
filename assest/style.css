@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #ccc;
+    line-height: 25px;
+    color: #777777;
+    
+}
+.main{
+    
+    border-bottom: solid 1.5px;
+    border-bottom-color: gray;
+    padding-left:20px;
+    padding-right: 20px;
+    background: #ffffff;
+    height: 55px;
+    margin-bottom:20px; 
+
+}
+
+header{
+    margin-left:18%;
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+    background: teal;
+    float: left;
+    color: #fff;   
+}
+nav{
+    margin-left:68%;
+    padding: 16px 20px 16px 20px;
+}
+
+#portfolio{
+    padding: 0px 20px 0px 20px;
+}
+
+.section{
+    padding: 2%;
+    background: #fff;
+    width: 960px;
+    margin:auto;
+    height: 960px;
+}
+
+
+h1{
+    border-bottom:solid 1.5px gray;
+    padding-bottom: 15px;
+    color: teal;
+}
+img{
+    float: left;
+    padding-right: 10px;
+}
+footer{
+    border-top: solid 3px;
+    border-top-color: teal;
+    padding: 0 20px 0 20px;
+    background:#666666;
+    height: 50px;
+    margin-bottom:1px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    color: #fff;
+}
+#name, #email, #message{
+    width: 100%;
+}
+
+#submit{
+    border:0;
+    color: #fff;
+    background: teal;
+    padding: 10px 20px;
+}
+.a,.b,.c,.d,.e,.f{
+    position: relative;
+    height: 175px;
+}
+.aa{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    bottom: 0px;
+    left: 0px;
+    color: #ffffff;
+    background: green;
+	text-align:center;
+	font-weight:bold;
+    opacity:0.7;
+    
+}
+
+.bb{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    bottom: 0px;
+    left: 210px;
+    color: #ffffff;
+    background: green;
+	text-align:center;
+	font-weight:bold;
+    opacity:0.7;
+    
+}
+
+.cc{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    bottom: 0px;
+    left: 420px;
+    color: #ffffff;
+    background: green;
+	text-align:center;
+	font-weight:bold;
+    opacity:0.7;
+    
+}
+
+.dd{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    bottom: 0px;
+    left: 630px;
+    color: #ffffff;
+    background: green;
+	text-align:center;
+	font-weight:bold;
+    opacity:0.7;
+    
+}
+
+.ee{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    bottom: -200px;
+    left: 0px;
+    color: #ffffff;
+    background: green;
+	text-align:center;
+	font-weight:bold;
+    opacity:0.7;
+    margin-top:10px; 
+    
+}
+
+.ff{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    bottom: -200px;
+    left: 210px;
+    color: #ffffff;
+    background: green;
+	text-align:center;
+	font-weight:bold;
+    opacity:0.7;
+    margin-top: 10px;
+    
+}
+img{
+    margin-bottom: 10px;
+    
+}
