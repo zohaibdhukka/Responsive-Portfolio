@@ -2,10 +2,16 @@
     box-sizing: border-box;
 }
 body{
-    background: #ccc;
+    background: rgb(247, 226, 255);
     line-height: 25px;
     color: #777777;
     
+}
+.section{
+    background: white;
+    height: 540px;
+    padding: 2%;
+
 }
 .main{
     
@@ -77,16 +83,13 @@ footer{
     background: teal;
     padding: 10px 20px;
 }
-.a,.b,.c,.d,.e,.f{
-    position: relative;
-    height: 175px;
-}
+
 .aa{
     position: absolute;
     width: 200px;
     height: 40px;
-    bottom: 0px;
-    left: 0px;
+    top: 330px;
+    left: 38px;
     color: #ffffff;
     background: green;
 	text-align:center;
@@ -99,8 +102,8 @@ footer{
     position: absolute;
     width: 200px;
     height: 40px;
-    bottom: 0px;
-    left: 210px;
+    top: 330px;
+    left: 249px;
     color: #ffffff;
     background: green;
 	text-align:center;
@@ -113,8 +116,8 @@ footer{
     position: absolute;
     width: 200px;
     height: 40px;
-    bottom: 0px;
-    left: 420px;
+    top: 330px;
+    left: 458px;
     color: #ffffff;
     background: green;
 	text-align:center;
@@ -127,8 +130,8 @@ footer{
     position: absolute;
     width: 200px;
     height: 40px;
-    bottom: 0px;
-    left: 630px;
+    top: 330px;
+    left: 668px;
     color: #ffffff;
     background: green;
 	text-align:center;
@@ -141,14 +144,13 @@ footer{
     position: absolute;
     width: 200px;
     height: 40px;
-    bottom: -200px;
-    left: 0px;
+    top: 330px;
+    left: 878px;
     color: #ffffff;
     background: green;
 	text-align:center;
 	font-weight:bold;
     opacity:0.7;
-    margin-top:10px; 
     
 }
 
@@ -156,14 +158,13 @@ footer{
     position: absolute;
     width: 200px;
     height: 40px;
-    bottom: -200px;
-    left: 210px;
+    top: 330px;
+    left: 1089px;
     color: #ffffff;
     background: green;
 	text-align:center;
 	font-weight:bold;
     opacity:0.7;
-    margin-top: 10px;
     
 }
 img{
@@ -171,10 +172,133 @@ img{
     
 }
 
+
+
+@media screen and (max-width: 1328.8px) {
+    .ff{
+        top: 540px;
+        left: 34px;
+
+    }
+    .ee{
+        top: 330px;
+        left: 874px;
+    }
+    .dd{
+        top: 330px;
+        left: 664px;
+    }
+    .cc{
+        top: 330px;
+        left: 454px;
+    }
+    .bb{
+        top: 330px;
+        left: 245px;
+    }
+    .aa{
+        top: 330px;
+        left: 34px;
+    }
+    
+}
+@media screen and (max-width: 1275.8px) {
+    .ff{
+        top: 530px;
+        left: 33px;
+
+    }
+    .ee{
+        top: 330px;
+        left: 873px;
+    }
+    .dd{
+        top: 330px;
+        left: 663px;
+    }
+    .cc{
+        top: 330px;
+        left: 453px;
+    }
+    .bb{
+        top: 330px;
+        left: 243px;
+    }
+    .aa{
+        top: 330px;
+        left: 33px;
+    }
+    
+}
+
+@media screen and (max-width: 1109.8px) {
+    .ff{
+        top: 535px;
+        left: 240px;
+
+    }
+    .ee{
+        top: 535px;
+        left: 29px;
+    }
+    .dd{
+        top: 325px;
+        left: 659px;
+    }
+    .cc{
+        top: 325px;
+        left: 449px;
+    }
+    .bb{
+        top: 325px;
+        left: 240px;
+    }
+    .aa{
+        top: 325px;
+        left: 29px;
+    }
+    
+}
+@media screen and (max-width: 1065.8px) {
+    .ff{
+        top: 535px;
+        left: 239px;
+
+    }
+    .ee{
+        top: 535px;
+        left: 29px;
+    }
+    .dd{
+        top: 325px;
+        left: 659px;
+    }
+    .cc{
+        top: 325px;
+        left: 449px;
+    }
+    .bb{
+        top: 325px;
+        left: 239px;
+    }
+    .aa{
+        top: 325px;
+        left: 29px;
+    }
+
+    
+}
 @media screen and (max-width: 980px) {
     body {
         background-color: lightblue;
         width: 965px;
+    }
+    .section{
+        font-size: 18px;
+        height: 550px;
+        padding: 2%;
+        background: #ffffff;
+        margin: auto;
     }
     
 }
@@ -185,53 +309,91 @@ img{
         background-color: lightcoral;
         width: 753px;
     }
+    .section{
+        font-size: 18px;
+        width: 661px;
+        padding: 2%;
+        background: #ffffff;
+        margin: auto;
+    }
 
     nav{
 
         margin-left: 63%;
     }
 
-    .dd{
-
-        bottom: -200px;
-        left: 0px;
-    }
-
-    .ee{
-
-        left: 210px;
-    }
-
     .ff{
+        top: 530px;
+        left: 489px;
 
-        left: 420px;
+    }
+    .ee{
+        top: 530px;
+        left: 279px;
+    }
+    .dd{
+        top: 530px;
+        left: 69px;
+    }
+    .cc{
+        top: 320px;
+        left: 489px;
+    }
+    .bb{
+        top: 320px;
+        left: 279px;
+    }
+    .aa{
+        top: 320px;
+        left: 69px;
     }
     
 }
+
 
 @media screen and (max-width: 640px) {
     body {
         background-color: lightsteelblue;
         width: 625px;
     }
-    .cc{
-        bottom: -200px;
-        left: 0px;
+    .section{
+        font-size: 18px;
+        width: 450px;
+        padding: 2%;
+        background: #ffffff;
+        margin: 12px;
+        height: 740px;
     }
-    
-    .dd{
-        bottom: -200px;
-        left: 210px;
-    }
-    .ee{
-        bottom: -400px;
-        left: 0px;
+    section{
+        margin: 10%;
     }
     .ff{
-        bottom: -400px;
-        left: 210px;
+        top: 735px;
+        left: 242px;
+
+    }
+    .ee{
+        top: 735px;
+        left: 33px;
+    }
+    .dd{
+        top: 525px;
+        left: 242px;
+    }
+    .cc{
+        top: 525px;
+        left: 33px;
+    }
+    .bb{
+        top: 320px;
+        left: 242px;
+    }
+    .aa{
+        top: 320px;
+        left: 33px;
     }
     nav{
         margin-left: 58%;
     }
 }
+
