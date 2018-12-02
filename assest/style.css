@@ -356,6 +356,17 @@ img{
         background-color: lightsteelblue;
         width: 625px;
     }
+
+    .main{
+        padding-left: 0px;
+        padding-right: 0px;
+        height: auto;
+    }
+    footer{
+        position: relative;
+    }
+   
+
     .section{
         font-size: 18px;
         width: 450px;
@@ -368,32 +379,40 @@ img{
         margin: 10%;
     }
     .ff{
-        top: 735px;
+        top: 798px;
         left: 242px;
 
     }
     .ee{
-        top: 735px;
+        top: 798px;
         left: 33px;
     }
     .dd{
-        top: 525px;
+        top: 587px;
         left: 242px;
     }
     .cc{
-        top: 525px;
+        top: 587px;
         left: 33px;
     }
     .bb{
-        top: 320px;
+        top: 377px;
         left: 242px;
     }
     .aa{
-        top: 320px;
+        top: 377px;
         left: 33px;
     }
+
+    header {
+        float: none;
+        margin-left: 0px;
+    }
+
     nav{
-        margin-left: 58%;
+        margin-left: 0%;
+        background: #fff;
+        text-align: center;
     }
 }
 
